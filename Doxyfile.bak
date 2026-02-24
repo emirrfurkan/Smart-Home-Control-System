@@ -1,0 +1,33 @@
+# Doxygen configuration file for SmartHomeProject
+# Generated on 2026-01-01
+
+PROJECT_NAME           = "SmartHomeProject"
+PROJECT_BRIEF          = "Qt-based Smart Home management project"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = YES
+OUTPUT_LANGUAGE        = English
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.cpp *.c *.cc *.ui *.pro
+EXCLUDE_PATTERNS       = */build/* */.qtcreator/* */.vscode/*
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+JAVADOC_AUTOBRIEF      = YES
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+# If Graphviz is installed, enable diagrams.
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 0
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+UML_LOOK               = NO
+
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+QUIET                  = NO
